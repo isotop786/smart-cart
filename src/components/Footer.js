@@ -5,8 +5,8 @@ const Footer =()=>{
     return(
         <div className="p-4 mt-4 d-flex justify-content-between" style={{background:'#333',color:'#eee'}} >
            <div className="d-flex justify-content-around">
-                <div className="">
-                        <h4 className="ml-4">ABOUT</h4>
+                <div className="p-3">
+                        <h5 className="ml-4 muted">ABOUT</h5>
                         <ul>
                             <li>Contact Us</li>
                             <li>About Us</li>
@@ -16,8 +16,8 @@ const Footer =()=>{
                         </ul>
                     </div>
 
-                    <div className="">
-                        <h4 className="ml-4">ABOUT</h4>
+                    <div className="p-3">
+                        <h5 className="ml-4">HELP</h5>
                         <ul>
                             <li>Contact Us</li>
                             <li>About Us</li>
@@ -26,8 +26,8 @@ const Footer =()=>{
                             <li>Flipkart Wholesale</li>
                         </ul>
                     </div>
-                    <div className="">
-                        <h4 className="ml-4">ABOUT</h4>
+                    <div className="p-3">
+                        <h5 className="ml-4">POLICY</h5>
                         <ul>
                             <li>Contact Us</li>
                             <li>About Us</li>
@@ -36,8 +36,8 @@ const Footer =()=>{
                             <li>Flipkart Wholesale</li>
                         </ul>
                     </div>
-                    <div className="">
-                        <h4 className="ml-4">ABOUT</h4>
+                    <div className="p-3">
+                        <h5 className="ml-4">SOCIAL</h5>
                         <ul>
                             <li>Contact Us</li>
                             <li>About Us</li>

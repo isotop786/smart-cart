@@ -67,12 +67,12 @@ const WholeSale = ()=>{
                    item.map(e=>{
                        return(
                         <div className="col-md-2">
-                        <div class=" card" >
+                        <div class="card align-items-stretch" >
                         <img src={e.img} class="card-img-top" alt="..."/>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">{e.name}</h5>
+                          <p>{e.price} Taka</p>
+                          <a href="#" class="btn btn-primary btn-sm">Sign in add</a>
                         </div>
                       </div>
                       </div>
