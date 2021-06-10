@@ -10,24 +10,34 @@ const Header = ()=>{
   </button>
 
 
-  <div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="what are you looking for or search by image..." aria-label="what are you looking for or seach by image..." aria-describedby="button-addon2"/>
-  <div class="input-group-append">
-    <button class="btn btn-warning" type="button" id="button-addon2">
+
+
+
+  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <ul className="navbar-nav w-50">
+      <li className="nav-item w-100">
+      <div className="input-group mb-3 ">
+  <input type="text" className="form-control w-50" placeholder="what are you looking for or search by image..." aria-label="what are you looking for or seach by image..." aria-describedby="button-addon2"/>
+  <div className="input-group-append">
+    <button className="btn btn-warning" type="button" id="button-addon2">
       <i className="fas fa-search"></i>
     </button>
   </div>
 </div>
-  <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav mr-auto">
-      <li className="nav-item ">
-     
       </li>
+    </ul>
+
+    <ul className="navbar-nav mr-auto">
+
       <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+        <a className="nav-link" href="#"><i className="fas fa-user"></i> Sign in  <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Link</a>
+        <a className="nav-link" href="#">Apps</a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="#"><i className="fas fa-shopping-cart"></i></a>
       </li>
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
