@@ -66,8 +66,13 @@ const WholeSale = ()=>{
 
                    item.map(e=>{
                        return(
-                        <div className="col-md-2">
+                        <div className="col-md">
+                          
                         <div class="card align-items-stretch" >
+                        <div className="d-flex justify-content-between">
+                               <button className="btn btn-sm btn-info">{e.cate}</button>
+                               <button className="btn btn-sm btn-danger">View all</button>
+                            </div>
                         <img src={e.img} class="card-img-top" alt="..."/>
                         <div class="card-body">
                           <h5 class="card-title">{e.name}</h5>

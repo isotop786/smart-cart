@@ -11,18 +11,20 @@ import Footer from './components/Footer'
 
 const App = ()=>{
   return(
-    <div>
+    <div className="">
       <Header/>
       
       <Menu/>
 <div className="container">
-<Caro/>
+  
+    <Caro/>
 
 <WholeSale/>
 
 <BigSel/>
 <Eletroinc/>
-</div>
+    </div>
+
       
       <Footer/>
 
